@@ -1,0 +1,27 @@
+{
+  "name": "adventjs",
+  "version": "1.0.0",
+  "description": "AdventJS challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llucValerio/adventjs.git"
+  },
+  "keywords": [
+    "adventjs",
+    "javascript",
+    "advent"
+  ],
+  "author": "Lluc Valério",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llucValerio/adventjs/issues"
+  },
+  "homepage": "https://github.com/llucValerio/adventjs#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
