@@ -1,7 +1,7 @@
 const contarOvejas = require('./advent01')
 
-describe('Having de advent01 challenge',() => {
-    test('',() => {
+describe('Having advent`s challenge number 1',() => {
+    test('sheeps with red and n&a on the name',() => {
         const ovejas = [
             { name: 'Noa', color: 'azul' },
             { name: 'Euge', color: 'rojo' },

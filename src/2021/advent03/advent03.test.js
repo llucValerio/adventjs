@@ -1,39 +1,39 @@
 const isValid = require('./advent03')
 
 describe('Having advent`s challenge number 3',() => {
-    test('',() => {
-        const carta = "bici coche (balón) bici coche peluche";
+    test('letter is valid',() => {
+        const letter = "bici coche (balón) bici coche peluche";
         
-        expect(isValid(carta)).toEqual(true);
+        expect(isValid(letter)).toEqual(true);
     });
-    test('',() => {
-        const carta = "(muñeca) consola bici";
+    test('letter is valid',() => {
+        const letter = "(muñeca) consola bici";
         
-        expect(isValid(carta)).toEqual(true);
+        expect(isValid(letter)).toEqual(true);
     });
-    test('',() => {
-        const carta = "bici coche (balón bici coche";
+    test('letter is valid',() => {
+        const letter = "bici coche (balón bici coche";
         
-        expect(isValid(carta)).toEqual(false);
+        expect(isValid(letter)).toEqual(false);
     });
-    test('',() => {
-        const carta = "peluche (bici [coche) bici coche balón";
+    test('letter is valid',() => {
+        const letter = "peluche (bici [coche) bici coche balón";
         
-        expect(isValid(carta)).toEqual(false);
+        expect(isValid(letter)).toEqual(false);
     });
-    test('',() => {
-        const carta = "(peluche {) bici";
+    test('letter is valid',() => {
+        const letter = "(peluche {) bici";
         
-        expect(isValid(carta)).toEqual(false);
+        expect(isValid(letter)).toEqual(false);
     });
-    test('',() => {
-        const carta = "() bici";
+    test('letter is valid',() => {
+        const letter = "() bici";
         
-        expect(isValid(carta)).toEqual(false);
+        expect(isValid(letter)).toEqual(false);
     });
-    test('',() => {
-        const carta = "bici (balón bici coche";
+    test('letter is valid',() => {
+        const letter = "bici (balón bici coche";
         
-        expect(isValid(carta)).toEqual(false);
+        expect(isValid(letter)).toEqual(false);
     });
 });

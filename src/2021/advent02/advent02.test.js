@@ -1,8 +1,8 @@
 const listGifts = require('./advent02')
 
-describe('Having de advent01 challenge',() => {
-    test('',() => {
-        const carta = 'bici coche balón _playstation bici coche peluche'
+describe('Having advent`s challenge number 2',() => {
+    test('letter is transoformed',() => {
+        const letter = 'bici coche balón _playstation bici coche peluche'
 
         const answer = {
             bici: 2,
@@ -10,6 +10,6 @@ describe('Having de advent01 challenge',() => {
             balón: 1,
             peluche: 1
           }
-        expect(listGifts(carta)).toEqual(answer);
+        expect(listGifts(letter)).toEqual(answer);
     });
 });
