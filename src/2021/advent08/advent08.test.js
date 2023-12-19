@@ -1,6 +1,6 @@
 const maxProfit = require('./advent08')
 
-describe('Having advent`s challenge number 7',() => {
+describe('Having advent`s challenge number 8',() => {
     test('maximum profit is 16',() => {
         const pricesBtc = [39, 18, 29, 25, 34, 32, 5];
         
