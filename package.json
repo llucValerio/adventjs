@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "test:2021": "jest --testPathPattern=src/2021",
-    "test:2022": "jest --testPathPattern=src/2022"
+    "test:2022": "jest --testPathPattern=src/2022",
+    "test:2023": "jest --testPathPattern=src/2023"
   },
   "repository": {
     "type": "git",
