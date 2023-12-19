@@ -2,23 +2,24 @@ function groupBy(collection, it) {
   // ¡No olvides compartir tu solución en redes!
   let resultObject = {};
 
-  for (let item of collection) {
+  collection.map((item) => {
     let attributeName;
     if (typeof (it) === 'function') {
       attributeName = it(item);
+    } else if (typeof (collection[0]) === 'object') {
+      attributeName = item[it];
     } else {
-      if (typeof (collection[0]) === 'object') {
-        attributeName = item[it];
-      } else {
-        attributeName = eval(`"${item}".${it}`);
-      }
+      // eslint-disable-next-line no-eval
+      attributeName = eval(`"${item}".${it}`);
     }
     resultObject = {
       [attributeName]: [],
       ...resultObject
-    }
-    resultObject[attributeName].push(item)
-  };
+    };
+    resultObject[attributeName].push(item);
+    return 0;
+  });
+
   return resultObject;
 }
 

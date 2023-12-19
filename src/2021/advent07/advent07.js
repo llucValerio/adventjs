@@ -1,23 +1,22 @@
 function contains(store, product) {
-    // ¡Y no olvides compartir tu solución en redes!
-    const storeArray = Object.values(store);
+  // ¡Y no olvides compartir tu solución en redes!
+  const storeArray = Object.values(store);
 
-    if (storeArray.length>0) {
-     for (let storeItem=0; storeItem<storeArray.length; storeItem+=1) {
-         if (storeArray[storeItem] === product) {
-             return true;
-         } else {
-             if (typeof(storeArray[storeItem]) === 'object' ) {
-                if (contains(storeArray[storeItem],product)) {
-                    return true;
-                }
-             }
-         }
-     }   
-    } else {
-        return false;
+  if (storeArray.length > 0) {
+    for (let storeItem = 0; storeItem < storeArray.length; storeItem += 1) {
+      if (storeArray[storeItem] === product) {
+        return true;
+      }
+      if (typeof (storeArray[storeItem]) === 'object') {
+        if (contains(storeArray[storeItem], product)) {
+          return true;
+        }
+      }
     }
-    return false
+  } else {
+    return false;
   }
+  return false;
+}
 
-  module.exports = contains;
+module.exports = contains;
