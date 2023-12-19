@@ -7,7 +7,7 @@ const decodeNumbers = require('./advent16');
 //   ;             50
 //   !             100
 
-describe('Having advent`s challenge number 15', () => {
+describe('Having advent`s challenge number 16', () => {
   test('decode a number 3', () => {
     const route = ('...');
 
