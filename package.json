@@ -4,7 +4,9 @@
   "description": "AdventJS challenges",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:2021": "jest --testPathPattern=src/2021",
+    "test:2022": "jest --testPathPattern=src/2022"
   },
   "repository": {
     "type": "git",
