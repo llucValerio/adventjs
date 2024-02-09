@@ -1,7 +1,7 @@
 const countDecorations = require('./advent22_21');
 
 describe('Having advent`s challenge number 22', () => {
-  test('how many decorations for the tree', () => {
+  test('#Test 01 - how many decorations for the tree', () => {
     const tree = {
       value: 1, // el nodo raíz siempre es uno, porque es la estrella ⭐
       left: {
@@ -20,7 +20,7 @@ describe('Having advent`s challenge number 22', () => {
 
     expect(countDecorations(tree)).toEqual(answer);
   });
-  test('how many decorations for the tree', () => {
+  test('#Test 02 - how many decorations for the tree', () => {
     const tree = {
       value: 1,
       left: {

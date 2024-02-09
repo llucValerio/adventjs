@@ -1,7 +1,7 @@
 const canReconfigure = require('./advent23_21');
 
 describe('Having advent`s challenge number 23', () => {
-  test('can be the machine reconfigured', () => {
+  test('#Test 01 - can be the machine reconfigured', () => {
     const from = 'BAL';
     const to = 'LIB';
 
@@ -14,7 +14,7 @@ describe('Having advent`s challenge number 23', () => {
 
     expect(canReconfigure(from, to)).toEqual(answer);
   });
-  test('can be the machine reconfigured', () => {
+  test('#Test 02 - can be the machine reconfigured', () => {
     const from = 'CON';
     const to = 'JUU';
 
@@ -27,7 +27,7 @@ N -> FALLO
 
     expect(canReconfigure(from, to)).toEqual(answer);
   });
-  test('can be the machine reconfigured', () => {
+  test('#Test 03 - can be the machine reconfigured', () => {
     const from = 'XBOX';
     const to = 'XXBO';
 
@@ -42,7 +42,7 @@ X -> O (FALLO, la X no puede asignarse a la O que ya se asignó a la X)
 
     expect(canReconfigure(from, to)).toEqual(answer);
   });
-  test('can be the machine reconfigured', () => {
+  test('#Test 04 - can be the machine reconfigured', () => {
     const from = 'XBOX';
     const to = 'XOBX';
 
@@ -50,7 +50,7 @@ X -> O (FALLO, la X no puede asignarse a la O que ya se asignó a la X)
 
     expect(canReconfigure(from, to)).toEqual(answer);
   });
-  test('can be the machine reconfigured', () => {
+  test('#Test 05 - can be the machine reconfigured', () => {
     const from = 'MMM';
     const to = 'MID';
 
@@ -63,7 +63,7 @@ M -> D (FALLO, asigna el mismo carácter a dos letras distintas)
 
     expect(canReconfigure(from, to)).toEqual(answer);
   });
-  test('can be the machine reconfigured', () => {
+  test('#Test 06 - can be the machine reconfigured', () => {
     const from = 'AA';
     const to = 'MID';
 

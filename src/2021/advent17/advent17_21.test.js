@@ -1,7 +1,7 @@
 const countPackages = require('./advent17_21');
 
 describe('Having advent`s challenge number 17', () => {
-  test('how much packages can be transported', () => {
+  test('#Test 01 - how much packages can be transported', () => {
     const carriers = [
       ['dapelu', 5, ['midu', 'jelowing']],
       ['midu', 2, []],
@@ -12,7 +12,7 @@ describe('Having advent`s challenge number 17', () => {
 
     expect(countPackages(carriers, 'dapelu')).toEqual(answer);
   });
-  test('how much packages can be transported', () => {
+  test('#Test 02 - how much packages can be transported', () => {
     const carriers = [
       ['lolivier', 8, ['camila', 'jesuspoleo']],
       ['camila', 5, ['sergiomartinez', 'conchaasensio']],

@@ -1,7 +1,7 @@
 const wrapGifts = require('./advent13_21');
 
 describe('Having advent`s challenge number 13', () => {
-  test('how to wrap these presents', () => {
+  test('#Test 01 - how to wrap these presents', () => {
     const presents = ['📷', '⚽️'];
 
     const answer = [
@@ -13,7 +13,7 @@ describe('Having advent`s challenge number 13', () => {
 
     expect(wrapGifts(presents)).toEqual(answer);
   });
-  test('how to wrap these presents', () => {
+  test('#Test 02 - how to wrap these presents', () => {
     const presents = ['🏈🎸', '🎮🧸'];
 
     const answer = ['******',
@@ -24,7 +24,7 @@ describe('Having advent`s challenge number 13', () => {
 
     expect(wrapGifts(presents)).toEqual(answer);
   });
-  test('how to wrap these presents', () => {
+  test('#Test 03 - how to wrap these presents', () => {
     const presents = ['📷'];
 
     const answer = ['****',

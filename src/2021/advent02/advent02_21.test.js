@@ -1,7 +1,7 @@
 const listGifts = require('./advent02_21');
 
 describe('Having advent`s challenge number 2', () => {
-  test('letter is transoformed', () => {
+  test('#Test 01 - letter is transformed', () => {
     const letter = 'bici coche balón _playstation bici coche peluche';
 
     const answer = {

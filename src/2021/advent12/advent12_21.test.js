@@ -1,7 +1,7 @@
 const getMinJump = require('./advent12_21');
 
 describe('Having advent`s challenge number 12', () => {
-  test('how far the jump to avoid obstacles', () => {
+  test('#Test 01 - how far the jump to avoid obstacles', () => {
     const obstacles = [5, 3, 6, 7, 9];
 
     const answer = 4;
@@ -14,7 +14,7 @@ describe('Having advent`s challenge number 12', () => {
 
     expect(getMinJump(obstacles)).toEqual(answer);
   });
-  test('how far the jump to avoid obstacles', () => {
+  test('#Test 02 - how far the jump to avoid obstacles', () => {
     const obstacles = [2, 4, 6, 8, 10];
 
     const answer = 7;
@@ -29,21 +29,21 @@ describe('Having advent`s challenge number 12', () => {
 
     expect(getMinJump(obstacles)).toEqual(answer);
   });
-  test('how far the jump to avoid obstacles', () => {
+  test('#Test 03 - how far the jump to avoid obstacles', () => {
     const obstacles = [1, 2, 3, 5];
 
     const answer = 4;
 
     expect(getMinJump(obstacles)).toEqual(answer);
   });
-  test('how far the jump to avoid obstacles', () => {
+  test('#Test 04 - how far the jump to avoid obstacles', () => {
     const obstacles = [3, 7, 5];
 
     const answer = 2;
 
     expect(getMinJump(obstacles)).toEqual(answer);
   });
-  test('how far the jump to avoid obstacles', () => {
+  test('#Test 05 - how far the jump to avoid obstacles', () => {
     const obstacles = [9, 5, 1];
 
     const answer = 2;

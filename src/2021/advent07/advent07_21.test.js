@@ -1,7 +1,7 @@
 const contains = require('./advent07_21');
 
 describe('Having advent`s challenge number 7', () => {
-  test('camiseta should be on the warehouse', () => {
+  test('#Test 01 - camiseta should be on the warehouse', () => {
     const warehouse = {
       estanteria1: {
         cajon1: {
@@ -24,7 +24,7 @@ describe('Having advent`s challenge number 7', () => {
 
     expect(contains(warehouse, itemSearched)).toEqual(answer);
   });
-  test('game boy should not be on the warehouse', () => {
+  test('#Test 02 - game boy should not be on the warehouse', () => {
     const warehouse = {
       baul: {
         fondo: {
@@ -40,7 +40,7 @@ describe('Having advent`s challenge number 7', () => {
 
     expect(contains(warehouse, itemSearched)).toEqual(answer);
   });
-  test('game boy should not be on the warehouse', () => {
+  test('#Test 03 - game boy should not be on the warehouse', () => {
     const warehouse = {
       objeto: 'ps5'
     };
@@ -50,7 +50,7 @@ describe('Having advent`s challenge number 7', () => {
 
     expect(contains(warehouse, itemSearched)).toEqual(answer);
   });
-  test('game boy should not be on an empty warehouse', () => {
+  test('#Test 04 - game boy should not be on an empty warehouse', () => {
     const warehouse = {};
     const itemSearched = 'gameboy';
 

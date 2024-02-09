@@ -1,7 +1,7 @@
 const learn = require('./advent19_21');
 
 describe('Having advent`s challenge number 19', () => {
-  test('which 2 courses can I do in 10 hours', () => {
+  test('#Test 01 - which 2 courses can I do in 10 hours', () => {
     const courses = [2, 3, 8, 1, 4];
 
     const answer = [0, 2];
@@ -9,14 +9,14 @@ describe('Having advent`s challenge number 19', () => {
 
     expect(learn(10, courses)).toEqual(answer);
   });
-  test('which 2 courses can I do in 15 hours', () => {
+  test('#Test 02 - which 2 courses can I do in 15 hours', () => {
     const courses = [2, 10, 4, 1];
 
     const answer = [1, 2]; // -> Los cursos en [1, 2] son 14 horas, es la mejor opción.
 
     expect(learn(15, courses)).toEqual(answer);
   });
-  test('which 2 courses can I do in 25 hours', () => {
+  test('#Test 03 - which 2 courses can I do in 25 hours', () => {
     const courses = [10, 15, 20, 5];
 
     const answer = [0, 1];
@@ -25,7 +25,7 @@ describe('Having advent`s challenge number 19', () => {
 
     expect(learn(25, courses)).toEqual(answer);
   });
-  test('which 2 courses can I do in 8 hours', () => {
+  test('#Test 04 - which 2 courses can I do in 8 hours', () => {
     const courses = [8, 2, 1];
 
     const answer = [1, 2];
@@ -33,7 +33,7 @@ describe('Having advent`s challenge number 19', () => {
 
     expect(learn(8, courses)).toEqual(answer);
   });
-  test('which 2 courses can I do in 8 hours', () => {
+  test('#Test 05 - which 2 courses can I do in 8 hours', () => {
     const courses = [8, 2, 1, 4, 3];
 
     const answer = [3, 4];
@@ -42,21 +42,21 @@ describe('Having advent`s challenge number 19', () => {
 
     expect(learn(8, courses)).toEqual(answer);
   });
-  test('which 2 courses can I do in 4 hours', () => {
+  test('#Test 06 - which 2 courses can I do in 4 hours', () => {
     const courses = [10, 14, 20];
 
     const answer = null; // -> no nos da tiempo a hacer dos cursos
 
     expect(learn(4, courses)).toEqual(answer);
   });
-  test('which 2 courses can I do in 5 hours', () => {
+  test('#Test 07 - which 2 courses can I do in 5 hours', () => {
     const courses = [5, 5, 5];
 
     const answer = null; // -> no nos da tiempo a hacer dos cursos
 
     expect(learn(5, courses)).toEqual(answer);
   });
-  test('which 2 courses can I do in 5 hours', () => {
+  test('#Test 08 - which 2 courses can I do in 5 hours', () => {
     const courses = [1, 2];
 
     const answer = [0, 1];
