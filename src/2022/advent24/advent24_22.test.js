@@ -1,7 +1,7 @@
 const canExit = require('./advent24_22');
 
 describe('Having advent`s challenge number 24', () => {
-  test('has the maze exit', () => {
+  test('#Test 01 - has the maze exit', () => {
     const maze = [
       [' ', ' ', 'W', ' ', 'S'],
       [' ', ' ', ' ', ' ', ' '],
@@ -15,7 +15,7 @@ describe('Having advent`s challenge number 24', () => {
 
     expect(canExit(maze)).toBeTruthy();
   });
-  test('has the maze exit', () => {
+  test('#Test 02 - has the maze exit', () => {
     const maze = [
       [' ', ' ', 'W', 'W', 'S'],
       [' ', ' ', ' ', 'W', ' '],
@@ -28,7 +28,7 @@ describe('Having advent`s challenge number 24', () => {
 
     expect(canExit(maze)).toBeFalsy();
   });
-  test('has the maze exit', () => {
+  test('#Test 03 - has the maze exit', () => {
     const maze = [
       [' ', 'S', ' ', ' '],
       [' ', ' ', 'W', ' '],
@@ -38,7 +38,7 @@ describe('Having advent`s challenge number 24', () => {
 
     expect(canExit(maze)).toBeTruthy();
   });
-  test('has the maze exit', () => {
+  test('#Test 04 - has the maze exit', () => {
     const maze = [
       [' ', 'S', ' ', ' '],
       [' ', ' ', 'W', ' '],
@@ -48,7 +48,7 @@ describe('Having advent`s challenge number 24', () => {
 
     expect(canExit(maze)).toBeFalsy();
   });
-  test('has the maze exit', () => {
+  test('#Test 05 - has the maze exit', () => {
     const maze = [
       [' ', 'S', ' '],
       [' ', ' ', 'W'],
@@ -58,7 +58,7 @@ describe('Having advent`s challenge number 24', () => {
 
     expect(canExit(maze)).toBeTruthy();
   });
-  test('has the maze exit', () => {
+  test('#Test 06 - has the maze exit', () => {
     const maze = [
       [' ', 'S', ' ', ' ', 'W', ' '],
       [' ', 'E', ' ', ' ', ' ', ' ']

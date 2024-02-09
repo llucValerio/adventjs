@@ -1,7 +1,7 @@
 const executeCommands = require('./advent23_22');
 
 describe('Having advent`s challenge number 23', () => {
-  test('result of computing array', () => {
+  test('#Test 01 - result of computing array', () => {
     const commands = [
       'MOV 5,V00', // V00 is 5
       'MOV 10,V01', // V01 is 10
@@ -16,7 +16,7 @@ describe('Having advent`s challenge number 23', () => {
 
     expect(executeCommands(commands)).toEqual(answer);
   });
-  test('result of computing array', () => {
+  test('#Test 02 - result of computing array', () => {
     const commands = [
       'MOV 255,V00', // V00 is 255
       'INC V00', // V00 is 256, overflows to 0
@@ -31,7 +31,7 @@ describe('Having advent`s challenge number 23', () => {
 
     expect(executeCommands(commands)).toEqual(answer);
   });
-  test('result of computing array', () => {
+  test('#Test 03 - result of computing array', () => {
     const commands = [
       'MOV 10,V00', // V00 is 10
       'DEC V00', // decrement V00 by 1  <---┐
@@ -48,7 +48,7 @@ describe('Having advent`s challenge number 23', () => {
     expect(executeCommands(commands)).toEqual(answer);
   });
 
-  test('result of computing array', () => {
+  test('#Test 04 - result of computing array', () => {
     const commands = [
       'MOV 5,V00',
       'MOV 10,V01',

@@ -1,7 +1,7 @@
 const countTime = require('./advent09_22');
 
 describe('Having advent`s challenge number 9', () => {
-  test('how many seconds to change the leds', () => {
+  test('#Test 01 - how many seconds to change the leds', () => {
     const leds = [0, 1, 1, 0, 1];
 
     const answer = 7;
@@ -12,7 +12,7 @@ describe('Having advent`s challenge number 9', () => {
 
     expect(countTime(leds)).toEqual(answer);
   });
-  test('how many seconds to change the leds', () => {
+  test('#Test 02 - how many seconds to change the leds', () => {
     const leds = [0, 0, 0, 1];
 
     const answer = 21;
@@ -24,7 +24,7 @@ describe('Having advent`s challenge number 9', () => {
 
     expect(countTime(leds)).toEqual(answer);
   });
-  test('how many seconds to change the leds', () => {
+  test('#Test 03 - how many seconds to change the leds', () => {
     const leds = [0, 0, 1, 0, 0];
 
     const answer = 28;

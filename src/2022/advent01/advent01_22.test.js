@@ -1,7 +1,7 @@
 const wrapping = require('./advent01_22');
 
 describe('Having advent`s challenge number 1', () => {
-  test('sheeps with red and n&a on the name', () => {
+  test('#Test 01 - sheeps with red and n&a on the name', () => {
     const gifts = ['cat', 'game', 'socks'];
 
     const answer = [
@@ -12,7 +12,7 @@ describe('Having advent`s challenge number 1', () => {
 
     expect(wrapping(gifts)).toEqual(answer);
   });
-  test('sheeps with red and n&a on the name', () => {
+  test('#Test 02 - sheeps with red and n&a on the name', () => {
     const gifts = ['book', 'game', 'socks'];
 
     const answer = [

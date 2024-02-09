@@ -17,7 +17,7 @@ describe('Having advent`s challenge number 20', () => {
 
     expect(Array.isArray(howManyReindeers(reindeerTypes, countries))).toStrictEqual(true);
   });
-  test('classify reindeers with countries', () => {
+  test('#Test 02 - classify reindeers with countries', () => {
     const reindeerTypes = [
       { type: 'Nuclear', weightCapacity: 50 },
       { type: 'Electric', weightCapacity: 10 },
@@ -56,7 +56,7 @@ describe('Having advent`s challenge number 20', () => {
 
     expect(howManyReindeers(reindeerTypes, countries)).toEqual(answer);
   });
-  test('classify reindeers with countries', () => {
+  test('#Test 03 - classify reindeers with countries', () => {
     const reindeerTypes = [
       { type: 'Electric', weightCapacity: 10 },
       { type: 'Diesel', weightCapacity: 1 },
@@ -109,7 +109,7 @@ describe('Having advent`s challenge number 20', () => {
 
     expect(howManyReindeers(reindeerTypes, countries)).toEqual(answer);
   });
-  test('classify reindeers with countries', () => {
+  test('#Test 04 - classify reindeers with countries', () => {
     const reindeerTypes = [
       { type: 'Electric', weightCapacity: 10 },
       { type: 'Gasoline', weightCapacity: 5 },
@@ -140,7 +140,7 @@ describe('Having advent`s challenge number 20', () => {
 
     expect(howManyReindeers(reindeerTypes, countries)).toEqual(answer);
   });
-  test('classify reindeers with countries', () => {
+  test('#Test 05 - classify reindeers with countries', () => {
     const reindeerTypes = [
       { type: 'Nuclear', weightCapacity: 50 },
       { type: 'Electric', weightCapacity: 10 },
@@ -224,7 +224,7 @@ describe('Having advent`s challenge number 20', () => {
 
     expect(howManyReindeers(reindeerTypes, countries)).toEqual(answer);
   });
-  test('classify reindeers with countries', () => {
+  test('#Test 06 - classify reindeers with countries', () => {
     const reindeerTypes = [
       { type: 'Diesel', weightCapacity: 1 },
       { type: 'Gasoline', weightCapacity: 5 }
@@ -266,7 +266,7 @@ describe('Having advent`s challenge number 20', () => {
 
     expect(howManyReindeers(reindeerTypes, countries)).toEqual(answer);
   });
-  test('classify reindeers with countries', () => {
+  test('#Test 07 - classify reindeers with countries', () => {
     const reindeerTypes = [
       { type: 'Diesel', weightCapacity: 1 },
       { type: 'Gasoline', weightCapacity: 8 }

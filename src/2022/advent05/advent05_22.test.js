@@ -1,7 +1,7 @@
 const getMaxGifts = require('./advent05_22');
 
 describe('Having advent`s challenge number 5', () => {
-  test('maximum gifts can be distributed', () => {
+  test('#Test 01 - maximum gifts can be distributed', () => {
     const giftsCities = [12, 3, 11, 5, 7];
     const maxGifts = 20;
     const maxCities = 3;
@@ -10,7 +10,7 @@ describe('Having advent`s challenge number 5', () => {
 
     expect(getMaxGifts(giftsCities, maxGifts, maxCities)).toEqual(answer);
   });
-  test('maximum gifts can be distributed', () => {
+  test('#Test 02 - maximum gifts can be distributed', () => {
     const giftsCities = [50];
     const maxGifts = 15;
     const maxCities = 1;
@@ -19,7 +19,7 @@ describe('Having advent`s challenge number 5', () => {
 
     expect(getMaxGifts(giftsCities, maxGifts, maxCities)).toEqual(answer);
   });
-  test('maximum gifts can be distributed', () => {
+  test('#Test 03 - maximum gifts can be distributed', () => {
     const giftsCities = [50];
     const maxGifts = 100;
     const maxCities = 1;
@@ -28,7 +28,7 @@ describe('Having advent`s challenge number 5', () => {
 
     expect(getMaxGifts(giftsCities, maxGifts, maxCities)).toEqual(answer);
   });
-  test('maximum gifts can be distributed', () => {
+  test('#Test 04 - maximum gifts can be distributed', () => {
     const giftsCities = [50, 70];
     const maxGifts = 100;
     const maxCities = 1;
@@ -37,7 +37,7 @@ describe('Having advent`s challenge number 5', () => {
 
     expect(getMaxGifts(giftsCities, maxGifts, maxCities)).toEqual(answer);
   });
-  test('maximum gifts can be distributed', () => {
+  test('#Test 05 - maximum gifts can be distributed', () => {
     const giftsCities = [50, 70, 30];
     const maxGifts = 100;
     const maxCities = 2;
@@ -46,7 +46,7 @@ describe('Having advent`s challenge number 5', () => {
 
     expect(getMaxGifts(giftsCities, maxGifts, maxCities)).toEqual(answer);
   });
-  test('maximum gifts can be distributed', () => {
+  test('#Test 06 - maximum gifts can be distributed', () => {
     const giftsCities = [50, 70, 30];
     const maxGifts = 100;
     const maxCities = 3;
@@ -55,7 +55,7 @@ describe('Having advent`s challenge number 5', () => {
 
     expect(getMaxGifts(giftsCities, maxGifts, maxCities)).toEqual(answer);
   });
-  test('maximum gifts can be distributed', () => {
+  test('#Test 07 - maximum gifts can be distributed', () => {
     const giftsCities = [50, 70, 30];
     const maxGifts = 100;
     const maxCities = 4;
@@ -64,7 +64,7 @@ describe('Having advent`s challenge number 5', () => {
 
     expect(getMaxGifts(giftsCities, maxGifts, maxCities)).toEqual(answer);
   });
-  test('maximum gifts can be distributed', () => {
+  test('#Test 08 - maximum gifts can be distributed', () => {
     const giftsCities = [50, 70, 100, 30];
     const maxGifts = 100;
     const maxCities = 6;
@@ -73,7 +73,7 @@ describe('Having advent`s challenge number 5', () => {
 
     expect(getMaxGifts(giftsCities, maxGifts, maxCities)).toEqual(answer);
   });
-  test('maximum gifts can be distributed', () => {
+  test('#Test 09 - maximum gifts can be distributed', () => {
     const giftsCities = [10, 20, 30, 40];
     const maxGifts = 90;
     const maxCities = 2;

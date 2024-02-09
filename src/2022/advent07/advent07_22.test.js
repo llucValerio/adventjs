@@ -1,7 +1,7 @@
 const getGiftsToRefill = require('./advent07_22');
 
 describe('Having advent`s challenge number 7', () => {
-  test('Which products must be replenished', () => {
+  test('#Test 01 - Which products must be replenished', () => {
     const a1 = ['bike', 'car', 'bike', 'bike'];
     const a2 = ['car', 'bike', 'doll', 'car'];
     const a3 = ['bike', 'pc', 'pc'];

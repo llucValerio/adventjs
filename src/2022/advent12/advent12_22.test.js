@@ -1,7 +1,7 @@
 const selectSleigh = require('./advent12_22');
 
 describe('Having advent`s challenge number 12', () => {
-  test('which is the best sleight available', () => {
+  test('#Test 01 - which is the best sleight available', () => {
     const distance = 30;
     const sleighs = [
       { name: 'Gorusuke', consumption: 0.3 },

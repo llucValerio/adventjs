@@ -2,7 +2,7 @@ const countHours = require('./advent02_22');
 const countHoursControlingLeapYear = require('./advent02_22');
 
 describe('Having advent`s challenge number 2', () => {
-  test('how many extra hours with function 1', () => {
+  test('#Test 01 - how many extra hours with function 1', () => {
     const year = 2022;
     const holidays = ['01/06', '04/01', '12/25']; // format MM/DD
     // 01/06 is January 6, a Friday. Count.
@@ -13,7 +13,7 @@ describe('Having advent`s challenge number 2', () => {
 
     expect(countHours(year, holidays)).toEqual(answer);
   });
-  test('how many extra hours with function 2', () => {
+  test('#Test 02 - how many extra hours with function 2', () => {
     const year = 2022;
     const holidays = ['01/06', '04/01', '12/25']; // format MM/DD
     // 01/06 is January 6, a Friday. Count.
@@ -24,7 +24,7 @@ describe('Having advent`s challenge number 2', () => {
 
     expect(countHoursControlingLeapYear(year, holidays)).toEqual(answer);
   });
-  test('how many extra hours with function 1', () => {
+  test('#Test 03 - how many extra hours with function 1', () => {
     const year = 2021;
     const holidays = ['02/29', '03/01', '03/01']; // format MM/DD
 
@@ -32,7 +32,7 @@ describe('Having advent`s challenge number 2', () => {
 
     expect(countHours(year, holidays)).toEqual(answer);
   });
-  test('how many extra hours with function 2', () => {
+  test('#Test 04 - how many extra hours with function 2', () => {
     const year = 2021;
     const holidays = ['02/29', '03/01', '03/01']; // format MM/DD
 

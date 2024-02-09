@@ -1,7 +1,7 @@
 const checkJump = require('./advent10_22');
 
 describe('Having advent`s challenge number 10', () => {
-  test('check the parabola jump between cities', () => {
+  test('#Test 01 - check the parabola jump between cities', () => {
     const heights = [1, 3, 8, 5, 2];
     /*
     It's `true`.
@@ -15,7 +15,7 @@ describe('Having advent`s challenge number 10', () => {
     */
     expect(checkJump(heights)).toBeTruthy();
   });
-  test('check the parabola jump between cities', () => {
+  test('#Test 02 - check the parabola jump between cities', () => {
     const heights = [1, 7, 3, 5];
     /*
     It's `false`.
@@ -27,27 +27,27 @@ describe('Having advent`s challenge number 10', () => {
     */
     expect(checkJump(heights)).toBeFalsy();
   });
-  test('check the parabola jump between cities', () => {
+  test('#Test 03 - check the parabola jump between cities', () => {
     const heights = [4, 2, 1];
 
     expect(checkJump(heights)).toBeFalsy();
   });
-  test('check the parabola jump between cities', () => {
+  test('#Test 04 - check the parabola jump between cities', () => {
     const heights = [4, 2];
 
     expect(checkJump(heights)).toBeFalsy();
   });
-  test('check the parabola jump between cities', () => {
+  test('#Test 05 - check the parabola jump between cities', () => {
     const heights = [2, 2];
 
     expect(checkJump(heights)).toBeFalsy();
   });
-  test('check the parabola jump between cities', () => {
+  test('#Test 06 - check the parabola jump between cities', () => {
     const heights = [2, 4];
 
     expect(checkJump(heights)).toBeFalsy();
   });
-  test('check the parabola jump between cities', () => {
+  test('#Test 07 - check the parabola jump between cities', () => {
     const heights = [1];
 
     expect(checkJump(heights)).toBeFalsy();

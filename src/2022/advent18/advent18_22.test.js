@@ -1,7 +1,7 @@
 const dryNumber = require('./advent18_22');
 
 describe('Having advent`s challenge number 18', () => {
-  test('barcodes can not be printed', () => {
+  test('#Test 01 - barcodes can not be printed', () => {
     const missingInk = 1;
     const barcodesToPrint = 15;
 
@@ -12,7 +12,7 @@ describe('Having advent`s challenge number 18', () => {
 
     expect(dryNumber(missingInk, barcodesToPrint)).toEqual(answer);
   });
-  test('barcodes can not be printed', () => {
+  test('#Test 02 - barcodes can not be printed', () => {
     const missingInk = 2;
     const barcodesToPrint = 20;
 

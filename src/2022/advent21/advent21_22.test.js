@@ -1,7 +1,7 @@
 const printTable = require('./advent21_22');
 
 describe('Having advent`s challenge number 21', () => {
-  test('drawing a gifts table', () => {
+  test('#Test 01 - drawing a gifts table', () => {
     const items = [
       { name: 'Game', quantity: 2 },
       { name: 'Bike', quantity: 1 },
@@ -12,7 +12,7 @@ describe('Having advent`s challenge number 21', () => {
 
     expect(printTable(items)).toEqual(answer);
   });
-  test('drawing a gifts table', () => {
+  test('#Test 02 - drawing a gifts table', () => {
     const items = [
       { name: 'PlayStation 5', quantity: 9234782374892 },
       { name: 'Book Learn Web Dev', quantity: 23531 }

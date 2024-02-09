@@ -1,7 +1,7 @@
 const carryGifts = require('./advent17_22');
 
 describe('Having advent`s challenge number 17', () => {
-  test('group gifts in bags', () => {
+  test('#Test 01 - group gifts in bags', () => {
     const gifts = ['game', 'bike', 'book', 'toy'];
     const maxWeight = 10;
 
@@ -12,7 +12,7 @@ describe('Having advent`s challenge number 17', () => {
 
     expect(carryGifts(gifts, maxWeight)).toEqual(answer);
   });
-  test('group gifts in bags', () => {
+  test('#Test 02 - group gifts in bags', () => {
     const gifts = ['game', 'bike', 'book', 'toy'];
     const maxWeight = 7;
 
@@ -23,7 +23,7 @@ describe('Having advent`s challenge number 17', () => {
 
     expect(carryGifts(gifts, maxWeight)).toEqual(answer);
   });
-  test('group gifts in bags', () => {
+  test('#Test 03 - group gifts in bags', () => {
     const gifts = ['game', 'bike', 'book', 'toy'];
     const maxWeight = 4;
 
@@ -33,7 +33,7 @@ describe('Having advent`s challenge number 17', () => {
 
     expect(carryGifts(gifts, maxWeight)).toEqual(answer);
   });
-  test('group gifts in bags', () => {
+  test('#Test 04 - group gifts in bags', () => {
     const gifts = ['toy', 'gamme', 'toy', 'bike'];
     const maxWeight = 6;
 
@@ -45,7 +45,7 @@ describe('Having advent`s challenge number 17', () => {
 
     expect(carryGifts(gifts, maxWeight)).toEqual(answer);
   });
-  test('group gifts in bags', () => {
+  test('#Test 05 - group gifts in bags', () => {
     const gifts = ['toy', 'toy', 'toy', 'toy'];
     const maxWeight = 2;
 
