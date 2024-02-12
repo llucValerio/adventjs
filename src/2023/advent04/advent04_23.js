@@ -40,13 +40,4 @@ function decode(message) {
   return messageCorrected;
 }
 
-console.log(decode('hola (odnum)'));
-console.log('*-*-*-*--*-*-*-*-*-*-*--*-*-*-*-*-*--*-*-*-*');
-console.log(decode('(olleh) (dlrow)!'));
-console.log('*-*-*-*--*-*-*-*-*-*-*--*-*-*-*-*-*--*-*-*-*');
-console.log(decode('sa(u(cla)atn)s'));
-console.log('*-*-*-*--*-*-*-*-*-*-*--*-*-*-*-*-*--*-*-*-*');
-console.log(decode('((nta)(sa))'));
-console.log('*-*-*-*--*-*-*-*-*-*-*--*-*-*-*-*-*--*-*-*-*');
-
 module.exports = decode;
