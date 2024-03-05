@@ -1,6 +1,6 @@
 const createChristmasTree = require('./advent10_23');
 
-describe('Having advent`s challenge number 9', () => {
+describe('Having advent`s challenge number 10', () => {
   test('#Test 01 - Build a xmas tree with of height of 4', () => {
     const ornaments = '123';
     const height = 4;

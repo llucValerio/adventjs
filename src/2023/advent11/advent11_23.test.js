@@ -1,6 +1,6 @@
 const getIndexsForPalindrome = require('./advent11_23');
 
-describe('Having advent`s challenge number 9', () => {
+describe('Having advent`s challenge number 11', () => {
   test('#Test 01 - Is palindrome', () => {
     const text = 'anna';
 
